@@ -1,0 +1,125 @@
+%%% packages %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  
+\documentclass[frenchb]{report}
+%\usepackage{natbib}
+\usepackage[toc,page]{appendix}
+\usepackage[dvipsnames]{xcolor}
+\usepackage[french]{babel}
+\usepackage{url}
+\usepackage[utf8x]{inputenc}
+\usepackage{graphicx}
+\graphicspath{{images/}}
+\usepackage{parskip}
+\usepackage{fancyhdr}
+\usepackage{fancyvrb}
+\usepackage{vmargin}
+\usepackage{xcolor}
+\usepackage{bbm}
+\usepackage{amsmath,amssymb}
+\usepackage{amsthm}
+\usepackage{dsfont}
+\usepackage{stmaryrd}
+\usepackage{systeme}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{pifont}
+\usepackage{textcomp}
+\usepackage{calrsfs}
+\usepackage[T1]{fontenc}
+\usepackage[toc,page]{appendix}
+\usepackage{lipsum}
+\usepackage{verbatim}
+\usepackage{listings}
+\usepackage{adforn}
+\usepackage{float}
+\usepackage{subfig}
+
+\makeatletter
+\let\thetitle\@title
+\let\theauthor\@author
+\let\thedate\@date
+\makeatother
+
+%%% commandes mise en page %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%        
+\newcommand{\ld}{\log_{2}}
+\newcommand{\R}{\mathbbm{R}}
+\newcommand{\N}{\mathbbm{N}}
+\newcommand{\1}{\mathbbm{1}}
+\newcommand{\E}{\mathbbm{E}}
+\newcommand{\V}{\mathbbm{V}}
+\newcommand{\prob}{\mathbbm{P}}
+\newcommand{\Nc}{\mathcal{N}}
+\newcommand{\Cc}{\mathcal{C}}
+\newcommand{\K}{\mathcal{K}}
+\newcommand{\Xti}{\widetilde{X_i}}
+\newcommand{\Xtj}{\widetilde{X_j}}
+\newcommand{\Xn}{\overline{X_n}}
+\newcommand{\gn}{\hat{g_n}}
+\newcommand{\n}{\mathcal{N}}
+\newcommand{\lv}{\mathcal{L}}
+\newcommand{\thetat}{\tilde{\theta}}
+
+\newcommand{\console}[1]{\colorbox{black}{\begin{minipage}[c]{1\linewidth}\textcolor{white}{\texttt{#1}}\end{minipage}}}
+
+\newtheorem{prop}{Proposition}
+\newtheorem{thm}{Théorème}
+\newtheorem{cor}{Corollaire}
+\newtheorem{lem}{Lemme}
+\newtheorem{hyp}{Hypothèse}
+\theoremstyle{definition}\newtheorem{defn}{Définition}
+\theoremstyle{definition}\newtheorem{exm}{Exemple}
+\theoremstyle{definition}\newtheorem{nota}{Notation}
+\theoremstyle{definition}\newtheorem{rem}{Remarque}
+
+\renewcommand{\qedsymbol}{\adfhangingflatleafright}
+
+\begin{document}
+%%% Pour l'annexe
+\def\appendixpage{\vspace*{8cm}
+\begin{center}
+\Huge\textbf{Annexes}
+\end{center}
+}
+\def\appendixname{Annexe}%
+
+\begin{titlepage}
+\begin{center}
+\includegraphics[scale=0.6]{logo.png}
+\hfill
+\includegraphics[scale=0.35]{fds_logo.png}\\[3cm]
+\linespread{1.2}\huge {\bfseries Apprentissage Statistique }\\[0.5cm]
+\linespread{1.2}\LARGE {\bfseries Détection de structures communautaites dans des réseaux}\\[1.5cm]
+\linespread{1}
+
+{\large Rédigé par\\}
+{\Large \textsc{pralon} Nicolas}\\
+{\Large \textsc{côme} Olivier}\\
+{\Large \textsc{sene} Assane}\\[1cm]
+
+\includegraphics[scale=0.7]{imag_logo.png}
+
+\end{center}
+\end{titlepage}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\tableofcontents
+\newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter*{Introduction}
+\addcontentsline{toc}{part}{Introduction}
+
+De multiple réseaux, y compris les réseaux sociaux, les réseaux informatiques, se divisent plus ou moins naturellement en communautés. La détection de cette structure sous-jacente aux réseaux constitue un problème actuel, et de nombreuses approches ont été développées pour y répondre. 
+
+Dans ce rapport nous allons présenter une approche communément utilisée en apprentissage non supervisé, permettant de quantifier de la validité d'un partitionnement du réseau, les déffaillances à cette approche et la mise en pratique des méthodes utilisées pour y répondre. 
+
+\section*{Concept de Modularité}
+L'étude d'éventuelle structures communautaires dans des réseaux peut formellement être présentée par l'étude de graphe. Ainsi nous considérons un réseau comme un graphe, et emmettons certaines hypothèses à notre étude : 
+
+\begin{center}
+$Soit~G = (V,E)$ 
+\end{center}
+
+
+
+\end{document}
