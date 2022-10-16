@@ -114,11 +114,42 @@ De multiple réseaux, y compris les réseaux sociaux, les réseaux informatiques
 Dans ce rapport nous allons présenter une approche communément utilisée en apprentissage non supervisé, permettant de quantifier de la validité d'un partitionnement du réseau, les déffaillances à cette approche et la mise en pratique des méthodes utilisées pour y répondre. 
 
 \section*{Concept de Modularité}
-L'étude d'éventuelle structures communautaires dans des réseaux peut formellement être présentée par l'étude de graphe. Ainsi nous considérons un réseau comme un graphe, et emmettons certaines hypothèses à notre étude : 
+\addcontentsline{toc}{part}{Concept de Modularité}
+L'étude d'éventuelles structures communautaires dans des réseaux peut formellement être présentée par l'étude de graphe. Ainsi nous considérons un réseau comme un graphe, et émmettons certaines hypothèses à notre étude : 
 
 \begin{center}
-$Soit~G = (V,E)$ 
+$Soit~G = (V,E)\text{, un graphe tels que }$
 \end{center}
+$V = \{v_1, \cdots, v_p\} \text{ l'ensemble des noeuds }$\newline
+$E \subset{\{ (v_i,v_j)_{i,j \in \{1,\cdots,p\}}| i \neq j \}} = V\times V \text{ l'ensemble des arêtes du graphe}$\
+
+G est un graphe simple, non orienté, non pondéré, non labélisé.\\
+
+Avant de décrire l'idée mise en oeuvre pour la détection de communautés, donnons quelques définissons.\\
+
+\begin{defn}[Densité]
+On appel densité d'un graphe la valeur 
+\begin{center}
+$D_G = \frac{|E|}{\frac{p^2-p}{2}} $
+\end{center}
+\end{defn}
+
+La densité d'un graphe correspond à la fréquence d'arêtes dans le graphe, il rend compte de la connexion entre les noeuds.
+
+\begin{defn}[Degré]
+On appel degré d'un noeud $i$ la valeur 
+\begin{center}
+$d_i = |\{(v_i,v_j) \in E | j \in {\{1,\cdots,p\}} \}| $
+\end{center}
+\end{defn}
+et correspond au nombre de voisin du noeud $i$.\\
+
+\begin{defn}[Model nul]
+On appel model nul d'un graph $G$, le graph $G^*$ dont les $|E| = m$ arêtes ont été distribuées aléatoirement entre les noeuds de $G$
+\end{defn}
+
+
+
 
 
 

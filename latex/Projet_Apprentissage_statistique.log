@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12.10) (preloaded format=pdflatex 2021.12.21)  16 OCT 2022 17:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12.10) (preloaded format=pdflatex 2021.12.21)  16 OCT 2022 19:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -447,8 +447,7 @@ Package caption Info: listings package is loaded.
 \c@exm=\count320
 \c@nota=\count321
 \c@rem=\count322
-
-No file Projet_Apprentissage_statistique.aux.
+ (Projet_Apprentissage_statistique.aux)
 \openout1 = `Projet_Apprentissage_statistique.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 77.
@@ -530,59 +529,83 @@ Package pdftex.def Info: imag_logo.png  used on input line 100.
 [1
 
 {C:/Users/Nicolas/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./logo.png
-> <./fds_logo.png> <./imag_logo.png>]
-No file Projet_Apprentissage_statistique.toc.
+> <./fds_logo.png> <./imag_logo.png>] (Projet_Apprentissage_statistique.toc)
 \tf@toc=\write4
 \openout4 = `Projet_Apprentissage_statistique.toc'.
+
 
 [1
 
 ]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 120
+LaTeX Font Info:    Trying to load font information for U+msa on input line 121
 .
  (C:\Users\Nicolas\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 120
+LaTeX Font Info:    Trying to load font information for U+msb on input line 121
 .
 (C:\Users\Nicolas\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for U+stmry on input line 1
-20.
+21.
 
 (C:\Users\Nicolas\AppData\Local\Programs\MiKTeX\tex/latex/stmaryrd\ustmry.fd)
 LaTeX Font Info:    Trying to load font information for OMS+rsfs on input line 
-120.
+121.
 
 (C:\Users\Nicolas\AppData\Local\Programs\MiKTeX\tex/latex/calrsfs\omsrsfs.fd)
+Underfull \hbox (badness 10000) in paragraph at lines 126--127
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--129
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 145--146
+
+ []
+
 [2
 
 ] (Projet_Apprentissage_statistique.aux) ) 
 Here is how much of TeX's memory you used:
- 12250 strings out of 478659
- 199569 string characters out of 2844971
- 598970 words of memory out of 3000000
- 30148 multiletter control sequences out of 15000+600000
- 415497 words of font info for 55 fonts, out of 8000000 for 9000
+ 12263 strings out of 478659
+ 200096 string characters out of 2844971
+ 603961 words of memory out of 3000000
+ 30153 multiletter control sequences out of 15000+600000
+ 418583 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  69i,5n,79p,548b,627s stack positions out of 5000i,500n,10000p,200000b,80000s
  <C:\Users\Nicolas\AppData\Local\MiKT
-eX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\Nicolas\AppData\Lo
-cal\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\Nicolas\Ap
-pData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk> <C:\Users\Ni
-colas\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\
-Users\Nicolas\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1440.
+eX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\Nicolas\AppData\Lo
+cal\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\Nicolas\Ap
+pData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\Ni
+colas\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\
+Users\Nicolas\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.
 pk> <C:\Users\Nicolas\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\e
-crm1200.pk> <C:\Users\Nicolas\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/
-dpi600\ecbx1728.pk> <C:\Users\Nicolas\AppData\Local\MiKTeX\fonts/pk/ljfour/jkna
-ppen/ec/dpi600\ecbx2074.pk><C:/Users/Nicolas/AppData/Local/Programs/MiKTeX/font
-s/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Nicolas/AppData/Local/Programs/
-MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on Projet_Apprentissage_statistique.pdf (3 pages, 348275 bytes).
+crm1440.pk> <C:\Users\Nicolas\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/
+dpi600\eccc1440.pk> <C:\Users\Nicolas\AppData\Local\MiKTeX\fonts/pk/ljfour/jkna
+ppen/ec/dpi600\ecrm1200.pk> <C:\Users\Nicolas\AppData\Local\MiKTeX\fonts/pk/ljf
+our/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\Nicolas\AppData\Local\MiKTeX\font
+s/pk/ljfour/jknappen/ec/dpi600\ecbx2074.pk><C:/Users/Nicolas/AppData/Local/Prog
+rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Nicolas/AppData
+/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/Nicol
+as/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/U
+sers/Nicolas/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10
+.pfb><C:/Users/Nicolas/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
+s/cm/cmr5.pfb><C:/Users/Nicolas/AppData/Local/Programs/MiKTeX/fonts/type1/publi
+c/amsfonts/cm/cmr7.pfb><C:/Users/Nicolas/AppData/Local/Programs/MiKTeX/fonts/ty
+pe1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Nicolas/AppData/Local/Programs/MiKT
+eX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/Nicolas/AppData/Local/Pro
+grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on Projet_Apprentissage_statistique.pdf (3 pages, 427571 bytes).
 
 PDF statistics:
- 192 PDF objects out of 1000 (max. 8388607)
+ 268 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
