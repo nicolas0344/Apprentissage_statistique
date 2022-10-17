@@ -1,3 +1,7 @@
 \babel@toc {french}{}\relax 
-\contentsline {part}{Introduction}{2}{}%
-\contentsline {part}{Concept de Modularit\IeC {\'e}}{2}{}%
+\contentsline {part}{Introduction}{2}{chapter*.2}%
+\contentsline {part}{Concept de Modularité}{2}{section*.3}%
+\contentsline {part}{Méthode de Louvain}{3}{section*.4}%
+\contentsline {part}{Expériences numériques avec la librairie $igraph$}{4}{section*.5}%
+\contentsline {part}{Annexes}{5}{section*.8}%
+\contentsline {part}{Bibliographie}{8}{chapter*.10}%
