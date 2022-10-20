@@ -92,6 +92,44 @@
 		%	\end{frame}
 	
 	%%%%%%%%%%%%%%%%%%%%%%%
+
+	\section{Modularité}
+
+	\begin{frame}{Définitions et hypothèses}
+		\scriptsize
+		\begin{block}{Représentation}
+			\[
+			Soit~G = (V,E)\text{, un graphe simple tels que}
+			\]
+			$V = \{v_1, \cdots, v_p\} \text{ l'ensemble des nœuds }$
+			$E \subset{\{ (v_i,v_j)_{i,j \in \{1,\cdots,p\}}| i \neq j \}} = V\times V \text{ l'ensemble des arêtes du graphe}$
+		\end{block}
+		\scriptsize
+		\begin{block}{Densité d'un graphe}
+			On appel densité d'un graphe la valeur
+			\[
+			D_G = \frac{|E|}{\frac{p^2-p}{2}}
+			\]
+			Correspond à la fréquence d'arêtes dans le graphe, elle rend compte de la connexion entre les nœuds
+		\end{block}
+	\end{frame}
+	\begin{frame}{Définitions et hypothèses}
+		\small
+		\begin{block}{Degré d'un noeud}
+			On appel degré d'un nœud $i$ la valeur 
+			\[
+			d_i = |\{(v_i,v_j) \in E | j \in {\{1,\cdots,p\}} \}| 
+			\]
+			et correspond au nombre de voisin du noeud $i$.
+		\end{block}
+		\small
+		\begin{block}{Modèle nul}
+			On appelle modèle nul d'un graph $G$, le graph $G^*$ dont les $|E| = m$ arêtes ont été distribuées aléatoirement entre les nœuds de $G$\newline
+
+			Le modèle nul joue un modèle de référence pour lequel il n'existe aucune structure communautaire dans le réseau.
+		\end{block}
+	\end{frame}
+	
 	
 	\section{Expériences numériques}
 	
@@ -116,7 +154,7 @@
 			Détecter les communautés d'un graphe donné
 		\end{block}	
 		\begin{block}{Ses arguments}
-			à compléter
+			Un objet de type \textit{igraph.Graph} (graphe donné par l'utilisateur)
 		\end{block}
 		\begin{block}{Ce qu'elle retourne}
 			Un graphe avec ses communautés mise en évidence par des couleurs

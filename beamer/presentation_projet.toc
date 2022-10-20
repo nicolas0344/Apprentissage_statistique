@@ -1,3 +1,4 @@
 \babel@toc {french}{}\relax 
-\beamer@sectionintoc {1}{Expériences numériques}{2}{0}{1}
-\beamer@sectionintoc {2}{Bibliographie}{6}{0}{2}
+\beamer@sectionintoc {1}{Modularité}{2}{0}{1}
+\beamer@sectionintoc {2}{Expériences numériques}{5}{0}{2}
+\beamer@sectionintoc {3}{Bibliographie}{9}{0}{3}
