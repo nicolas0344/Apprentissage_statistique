@@ -1,4 +1,5 @@
 \babel@toc {french}{}\relax 
 \beamer@sectionintoc {1}{Modularité}{2}{0}{1}
-\beamer@sectionintoc {2}{Expériences numériques}{5}{0}{2}
-\beamer@sectionintoc {3}{Bibliographie}{9}{0}{3}
+\beamer@sectionintoc {2}{Méthode de Louvain}{7}{0}{2}
+\beamer@sectionintoc {3}{Expériences numériques}{11}{0}{3}
+\beamer@sectionintoc {4}{Bibliographie}{15}{0}{4}

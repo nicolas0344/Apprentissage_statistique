@@ -129,7 +129,63 @@
 			Le modèle nul joue un modèle de référence pour lequel il n'existe aucune structure communautaire dans le réseau.
 		\end{block}
 	\end{frame}
-	
+	\begin{frame}
+		\begin{figure}[H]
+			\centering
+			\includegraphics[scale=1.1]{images/images_modularité_1}
+			\caption{Détection d'une bonne partition en 2 classes}
+		\end{figure}
+	\end{frame}
+	\begin{frame}{Modularité}
+		\small
+		\begin{block}{Modularité}
+			Soit $(C_1,\cdots,C_K)$ une partition de $V$.
+			On définit la modularité $Q$ de la partition comme 
+			\[
+			Q(C_1,\cdots,C_K) = \frac{1}{2m}\displaystyle\sum_{k=1}^K \displaystyle\sum_{(v_i,v_j)\in C_k} (1_{(v_i,v_j) \in E} - P_{i,j})
+			\]
+			avec 2m = $\displaystyle\sum_{i=1}^p d_i$ et $P_{i,j} = \frac{d_i d_j}{2m} \newline
+			\text{la probabilité que $v_i$ et $v_j$ soient connectés sous le modèle nul}$
+		\end{block}
+	\end{frame}
+
+	\section{Méthode de Louvain}
+
+	\begin{frame}{Méthode de Louvain}
+		\scriptsize
+		\begin{block}{Etape 1 de l'algorithme}
+			Il s'agit d'un algorithme itératif approchant la partition de modularité maximale en compléxité temporelle $\mathcal{O}(nlog(n))$
+			\begin{itemize}
+				\item Choix d'un parcours aléatoire\\
+				\item Affécter chaque noeud à sa propre communauté\\
+				\item Agrégation de i à la communauté du voisin j si 
+					\[
+					\Delta Q = Q(C_1, \cdots, C_i, \cdots, C_j, \cdots, C_p) - Q(C_1, \cdots, C_{i,j}, \cdots, C_p)>0
+					\]
+					et plus grand que les autres voisins de i 
+				\item itération sur le chemin 
+			\end{itemize} 
+		\end{block}
+	\end{frame}
+	\begin{frame}{Méthode de Louvain}
+		\scriptsize
+		\begin{block}{Etape 2 de l'algorithme}
+			\begin{itemize}
+				\item Agrégation des noeuds en communauté\\
+				\item On obtient un nouveau réseau, pondéré\\
+				\item Itération de l'étape 1 
+				\item Arrêt lorsque $\Delta Q=0$
+			\end{itemize} 
+		\end{block}
+	\end{frame}
+	\begin{frame}
+		\begin{figure}[H]
+			\centering
+			\includegraphics[scale=0.29]{images/Louvain-algorithm-overview-Fig-1-in-10}
+			\caption{Exemple d'application de la méthode de Louvain}
+		\end{figure}
+	\end{frame}
+		
 	
 	\section{Expériences numériques}
 	

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12.10) (preloaded format=pdflatex 2021.12.21)  20 OCT 2022 01:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12.10) (preloaded format=pdflatex 2021.12.21)  20 OCT 2022 05:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1199,17 +1199,17 @@ Package caption Info: End \AtBeginDocument code.
 Package hyperref Warning: Option `pdfauthor' has already been used,
 (hyperref)                setting the option has no effect on input line 70.
 
-<images/logo.png, id=26, 200.75pt x 200.75pt>
+<images/logo.png, id=30, 200.75pt x 200.75pt>
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
 Package pdftex.def Info: images/logo.png  used on input line 89.
 (pdftex.def)             Requested size: 17.07117pt x 17.07182pt.
-<images/imag_logo.png, id=27, 289.08pt x 165.0165pt>
+<images/imag_logo.png, id=31, 289.08pt x 165.0165pt>
 File: images/imag_logo.png Graphic file (type png)
 <use images/imag_logo.png>
 Package pdftex.def Info: images/imag_logo.png  used on input line 89.
 (pdftex.def)             Requested size: 29.90657pt x 17.07182pt.
-<images/ssd.png, id=29, 476.982pt x 434.1018pt>
+<images/ssd.png, id=33, 476.982pt x 434.1018pt>
 File: images/ssd.png Graphic file (type png)
 <use images/ssd.png>
 Package pdftex.def Info: images/ssd.png  used on input line 89.
@@ -1346,24 +1346,28 @@ Package pdftex.def Info: images/ssd.png  used on input line 131.
 (pdftex.def)             Requested size: 20.32059pt x 18.49411pt.
  [4
 
-] (presentation_projet.toc)
+]
+<images/images_modularité_1.png, id=144, 91.84312pt x 81.30376pt>
+File: images/images_modularité_1.png Graphic file (type png)
+<use images/images_modularité_1.png>
+Package pdftex.def Info: images/images_modularité_1.png  used on input line 13
+8.
+(pdftex.def)             Requested size: 101.02773pt x 89.43439pt.
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 134.
+Package pdftex.def Info: images/logo.png  used on input line 138.
 (pdftex.def)             Requested size: 17.07117pt x 17.07182pt.
 File: images/imag_logo.png Graphic file (type png)
 <use images/imag_logo.png>
-Package pdftex.def Info: images/imag_logo.png  used on input line 134.
+Package pdftex.def Info: images/imag_logo.png  used on input line 138.
 (pdftex.def)             Requested size: 29.90657pt x 17.07182pt.
 File: images/ssd.png Graphic file (type png)
 <use images/ssd.png>
-Package pdftex.def Info: images/ssd.png  used on input line 134.
+Package pdftex.def Info: images/ssd.png  used on input line 138.
 (pdftex.def)             Requested size: 20.32059pt x 18.49411pt.
  [5
 
-]
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 150.
+ <./images/images_modularité_1.png>]
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
 Package pdftex.def Info: images/logo.png  used on input line 150.
@@ -1376,88 +1380,190 @@ File: images/ssd.png Graphic file (type png)
 <use images/ssd.png>
 Package pdftex.def Info: images/ssd.png  used on input line 150.
 (pdftex.def)             Requested size: 20.32059pt x 18.49411pt.
- [6
+
+[6
+
+] (presentation_projet.toc)
+File: images/logo.png Graphic file (type png)
+<use images/logo.png>
+Package pdftex.def Info: images/logo.png  used on input line 152.
+(pdftex.def)             Requested size: 17.07117pt x 17.07182pt.
+File: images/imag_logo.png Graphic file (type png)
+<use images/imag_logo.png>
+Package pdftex.def Info: images/imag_logo.png  used on input line 152.
+(pdftex.def)             Requested size: 29.90657pt x 17.07182pt.
+File: images/ssd.png Graphic file (type png)
+<use images/ssd.png>
+Package pdftex.def Info: images/ssd.png  used on input line 152.
+(pdftex.def)             Requested size: 20.32059pt x 18.49411pt.
+ [7
+
+]
+File: images/logo.png Graphic file (type png)
+<use images/logo.png>
+Package pdftex.def Info: images/logo.png  used on input line 169.
+(pdftex.def)             Requested size: 17.07117pt x 17.07182pt.
+File: images/imag_logo.png Graphic file (type png)
+<use images/imag_logo.png>
+Package pdftex.def Info: images/imag_logo.png  used on input line 169.
+(pdftex.def)             Requested size: 29.90657pt x 17.07182pt.
+File: images/ssd.png Graphic file (type png)
+<use images/ssd.png>
+Package pdftex.def Info: images/ssd.png  used on input line 169.
+(pdftex.def)             Requested size: 20.32059pt x 18.49411pt.
+ [8
+
+]
+File: images/logo.png Graphic file (type png)
+<use images/logo.png>
+Package pdftex.def Info: images/logo.png  used on input line 180.
+(pdftex.def)             Requested size: 17.07117pt x 17.07182pt.
+File: images/imag_logo.png Graphic file (type png)
+<use images/imag_logo.png>
+Package pdftex.def Info: images/imag_logo.png  used on input line 180.
+(pdftex.def)             Requested size: 29.90657pt x 17.07182pt.
+File: images/ssd.png Graphic file (type png)
+<use images/ssd.png>
+Package pdftex.def Info: images/ssd.png  used on input line 180.
+(pdftex.def)             Requested size: 20.32059pt x 18.49411pt.
+ [9
+
+]
+<images/Louvain-algorithm-overview-Fig-1-in-10.png, id=235, 736.7525pt x 507.89
+75pt>
+File: images/Louvain-algorithm-overview-Fig-1-in-10.png Graphic file (type png)
+
+<use images/Louvain-algorithm-overview-Fig-1-in-10.png>
+Package pdftex.def Info: images/Louvain-algorithm-overview-Fig-1-in-10.png  use
+d on input line 187.
+(pdftex.def)             Requested size: 213.65276pt x 147.2865pt.
+File: images/logo.png Graphic file (type png)
+<use images/logo.png>
+Package pdftex.def Info: images/logo.png  used on input line 187.
+(pdftex.def)             Requested size: 17.07117pt x 17.07182pt.
+File: images/imag_logo.png Graphic file (type png)
+<use images/imag_logo.png>
+Package pdftex.def Info: images/imag_logo.png  used on input line 187.
+(pdftex.def)             Requested size: 29.90657pt x 17.07182pt.
+File: images/ssd.png Graphic file (type png)
+<use images/ssd.png>
+Package pdftex.def Info: images/ssd.png  used on input line 187.
+(pdftex.def)             Requested size: 20.32059pt x 18.49411pt.
+ [10
+
+ <./images/Louvain-algorithm-overview-Fig-1-in-10.png (PNG copy)>] (presentatio
+n_projet.toc)
+File: images/logo.png Graphic file (type png)
+<use images/logo.png>
+Package pdftex.def Info: images/logo.png  used on input line 190.
+(pdftex.def)             Requested size: 17.07117pt x 17.07182pt.
+File: images/imag_logo.png Graphic file (type png)
+<use images/imag_logo.png>
+Package pdftex.def Info: images/imag_logo.png  used on input line 190.
+(pdftex.def)             Requested size: 29.90657pt x 17.07182pt.
+File: images/ssd.png Graphic file (type png)
+<use images/ssd.png>
+Package pdftex.def Info: images/ssd.png  used on input line 190.
+(pdftex.def)             Requested size: 20.32059pt x 18.49411pt.
+ [11
+
+]
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 206.
+File: images/logo.png Graphic file (type png)
+<use images/logo.png>
+Package pdftex.def Info: images/logo.png  used on input line 206.
+(pdftex.def)             Requested size: 17.07117pt x 17.07182pt.
+File: images/imag_logo.png Graphic file (type png)
+<use images/imag_logo.png>
+Package pdftex.def Info: images/imag_logo.png  used on input line 206.
+(pdftex.def)             Requested size: 29.90657pt x 17.07182pt.
+File: images/ssd.png Graphic file (type png)
+<use images/ssd.png>
+Package pdftex.def Info: images/ssd.png  used on input line 206.
+(pdftex.def)             Requested size: 20.32059pt x 18.49411pt.
+ [12
 
 ]
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <14.4> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 162.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 218.
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 162.
+Package pdftex.def Info: images/logo.png  used on input line 218.
 (pdftex.def)             Requested size: 17.07117pt x 17.07182pt.
 File: images/imag_logo.png Graphic file (type png)
 <use images/imag_logo.png>
-Package pdftex.def Info: images/imag_logo.png  used on input line 162.
+Package pdftex.def Info: images/imag_logo.png  used on input line 218.
 (pdftex.def)             Requested size: 29.90657pt x 17.07182pt.
 File: images/ssd.png Graphic file (type png)
 <use images/ssd.png>
-Package pdftex.def Info: images/ssd.png  used on input line 162.
+Package pdftex.def Info: images/ssd.png  used on input line 218.
 (pdftex.def)             Requested size: 20.32059pt x 18.49411pt.
-
-[7
+ [13
 
 ]
-<images/G_zachary.png, id=231, 433.62pt x 289.08pt>
+<images/G_zachary.png, id=337, 433.62pt x 289.08pt>
 File: images/G_zachary.png Graphic file (type png)
 <use images/G_zachary.png>
-Package pdftex.def Info: images/G_zachary.png  used on input line 175.
+Package pdftex.def Info: images/G_zachary.png  used on input line 231.
 (pdftex.def)             Requested size: 156.10307pt x 104.06871pt.
-<images/random_network2.png, id=232, 433.62pt x 289.08pt>
+<images/random_network2.png, id=338, 433.62pt x 289.08pt>
 File: images/random_network2.png Graphic file (type png)
 <use images/random_network2.png>
-Package pdftex.def Info: images/random_network2.png  used on input line 175.
+Package pdftex.def Info: images/random_network2.png  used on input line 231.
 (pdftex.def)             Requested size: 138.76123pt x 92.50748pt.
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 175.
+Package pdftex.def Info: images/logo.png  used on input line 231.
 (pdftex.def)             Requested size: 17.07117pt x 17.07182pt.
 File: images/imag_logo.png Graphic file (type png)
 <use images/imag_logo.png>
-Package pdftex.def Info: images/imag_logo.png  used on input line 175.
+Package pdftex.def Info: images/imag_logo.png  used on input line 231.
 (pdftex.def)             Requested size: 29.90657pt x 17.07182pt.
 File: images/ssd.png Graphic file (type png)
 <use images/ssd.png>
-Package pdftex.def Info: images/ssd.png  used on input line 175.
+Package pdftex.def Info: images/ssd.png  used on input line 231.
 (pdftex.def)             Requested size: 20.32059pt x 18.49411pt.
- [8
+
+[14
 
  <./images/G_zachary.png> <./images/random_network2.png>]
 (presentation_projet.toc)
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 221.
+Package pdftex.def Info: images/logo.png  used on input line 277.
 (pdftex.def)             Requested size: 17.07117pt x 17.07182pt.
 File: images/imag_logo.png Graphic file (type png)
 <use images/imag_logo.png>
-Package pdftex.def Info: images/imag_logo.png  used on input line 221.
+Package pdftex.def Info: images/imag_logo.png  used on input line 277.
 (pdftex.def)             Requested size: 29.90657pt x 17.07182pt.
 File: images/ssd.png Graphic file (type png)
 <use images/ssd.png>
-Package pdftex.def Info: images/ssd.png  used on input line 221.
+Package pdftex.def Info: images/ssd.png  used on input line 277.
 (pdftex.def)             Requested size: 20.32059pt x 18.49411pt.
- [9
+ [15
 
 ]
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 2
-44.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 3
+00.
 
 (C:\Users\Nicolas\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 244.
+Package pdftex.def Info: images/logo.png  used on input line 300.
 (pdftex.def)             Requested size: 17.07117pt x 17.07182pt.
 File: images/imag_logo.png Graphic file (type png)
 <use images/imag_logo.png>
-Package pdftex.def Info: images/imag_logo.png  used on input line 244.
+Package pdftex.def Info: images/imag_logo.png  used on input line 300.
 (pdftex.def)             Requested size: 29.90657pt x 17.07182pt.
 File: images/ssd.png Graphic file (type png)
 <use images/ssd.png>
-Package pdftex.def Info: images/ssd.png  used on input line 244.
+Package pdftex.def Info: images/ssd.png  used on input line 300.
 (pdftex.def)             Requested size: 20.32059pt x 18.49411pt.
 
-[10
+[16
 
 ]
 \tf@nav=\write6
@@ -1475,39 +1581,42 @@ LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 3.0pt have occurred.
 
 Package rerunfilecheck Info: File `presentation_projet.out' has not changed.
-(rerunfilecheck)             Checksum: 51207F4F70D31826DC4354992B88F52E;366.
+(rerunfilecheck)             Checksum: 9C6563E48A6C2C992EF53ECE1D0D4014;508.
  ) 
 Here is how much of TeX's memory you used:
- 27750 strings out of 478659
- 539218 string characters out of 2844971
- 786685 words of memory out of 3000000
- 45236 multiletter control sequences out of 15000+600000
+ 27826 strings out of 478659
+ 541476 string characters out of 2844971
+ 787685 words of memory out of 3000000
+ 45295 multiletter control sequences out of 15000+600000
  495263 words of font info for 98 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,16n,122p,452b,683s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 128i,16n,122p,452b,714s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Users/Nicolas/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}
-{C:/Users/Nicolas/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.en
-c}{C:/Users/Nicolas/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.
-enc}{C:/Users/Nicolas/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.en
-c}<C:/Users/Nicolas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.
-pfb><C:/Users/Nicolas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi6
-.pfb><C:/Users/Nicolas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi
-8.pfb><C:/Users/Nicolas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lms
-s10.pfb><C:/Users/Nicolas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/l
-mss12.pfb><C:/Users/Nicolas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm
-/lmss8.pfb><C:/Users/Nicolas/AppData/Local/Programs/MiKTeX/fonts/type1/public/l
-m/lmss9.pfb><C:/Users/Nicolas/AppData/Local/Programs/MiKTeX/fonts/type1/public/
-lm/lmsso10.pfb><C:/Users/Nicolas/AppData/Local/Programs/MiKTeX/fonts/type1/publ
-ic/lm/lmsso12.pfb><C:/Users/Nicolas/AppData/Local/Programs/MiKTeX/fonts/type1/p
-ublic/lm/lmsso8.pfb><C:/Users/Nicolas/AppData/Local/Programs/MiKTeX/fonts/type1
-/public/lm/lmsy10.pfb><C:/Users/Nicolas/AppData/Local/Programs/MiKTeX/fonts/typ
-e1/public/lm/lmsy6.pfb><C:/Users/Nicolas/AppData/Local/Programs/MiKTeX/fonts/ty
-pe1/public/lm/lmsy7.pfb><C:/Users/Nicolas/AppData/Local/Programs/MiKTeX/fonts/t
-ype1/public/lm/lmsy8.pfb><C:/Users/Nicolas/AppData/Local/Programs/MiKTeX/fonts/
-type1/public/lm/lmtt8.pfb>
-Output written on presentation_projet.pdf (10 pages, 546320 bytes).
+{C:/Users/Nicolas/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.en
+c}{C:/Users/Nicolas/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.
+enc}{C:/Users/Nicolas/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-maths
+y.enc}{C:/Users/Nicolas/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.
+enc}<C:/Users/Nicolas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex1
+0.pfb><C:/Users/Nicolas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmm
+i10.pfb><C:/Users/Nicolas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/l
+mmi6.pfb><C:/Users/Nicolas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/
+lmmi7.pfb><C:/Users/Nicolas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm
+/lmmi8.pfb><C:/Users/Nicolas/AppData/Local/Programs/MiKTeX/fonts/type1/public/l
+m/lmss10.pfb><C:/Users/Nicolas/AppData/Local/Programs/MiKTeX/fonts/type1/public
+/lm/lmss12.pfb><C:/Users/Nicolas/AppData/Local/Programs/MiKTeX/fonts/type1/publ
+ic/lm/lmss8.pfb><C:/Users/Nicolas/AppData/Local/Programs/MiKTeX/fonts/type1/pub
+lic/lm/lmss9.pfb><C:/Users/Nicolas/AppData/Local/Programs/MiKTeX/fonts/type1/pu
+blic/lm/lmsso10.pfb><C:/Users/Nicolas/AppData/Local/Programs/MiKTeX/fonts/type1
+/public/lm/lmsso12.pfb><C:/Users/Nicolas/AppData/Local/Programs/MiKTeX/fonts/ty
+pe1/public/lm/lmsso8.pfb><C:/Users/Nicolas/AppData/Local/Programs/MiKTeX/fonts/
+type1/public/lm/lmsy10.pfb><C:/Users/Nicolas/AppData/Local/Programs/MiKTeX/font
+s/type1/public/lm/lmsy6.pfb><C:/Users/Nicolas/AppData/Local/Programs/MiKTeX/fon
+ts/type1/public/lm/lmsy7.pfb><C:/Users/Nicolas/AppData/Local/Programs/MiKTeX/fo
+nts/type1/public/lm/lmsy8.pfb><C:/Users/Nicolas/AppData/Local/Programs/MiKTeX/f
+onts/type1/public/lm/lmtt8.pfb>
+Output written on presentation_projet.pdf (16 pages, 663903 bytes).
 PDF statistics:
- 351 PDF objects out of 1000 (max. 8388607)
- 24 named destinations out of 1000 (max. 500000)
- 428 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 472 PDF objects out of 1000 (max. 8388607)
+ 37 named destinations out of 1000 (max. 500000)
+ 554 words of extra memory for PDF output out of 10000 (max. 10000000)
 
