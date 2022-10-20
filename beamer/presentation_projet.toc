@@ -2,4 +2,4 @@
 \beamer@sectionintoc {1}{Modularité}{2}{0}{1}
 \beamer@sectionintoc {2}{Méthode de Louvain}{7}{0}{2}
 \beamer@sectionintoc {3}{Expériences numériques}{11}{0}{3}
-\beamer@sectionintoc {4}{Bibliographie}{15}{0}{4}
+\beamer@sectionintoc {4}{Bibliographie}{16}{0}{4}

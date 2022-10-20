@@ -99,14 +99,14 @@
 		\scriptsize
 		\begin{block}{Représentation}
 			\[
-			Soit~G = (V,E)\text{, un graphe simple tels que}
+			Soit~G = (V,E)\text{, un graphe simple tel que}
 			\]
 			$V = \{v_1, \cdots, v_p\} \text{ l'ensemble des nœuds }$
 			$E \subset{\{ (v_i,v_j)_{i,j \in \{1,\cdots,p\}}| i \neq j \}} = V\times V \text{ l'ensemble des arêtes du graphe}$
 		\end{block}
 		\scriptsize
 		\begin{block}{Densité d'un graphe}
-			On appel densité d'un graphe la valeur
+			On appelle densité d'un graphe la valeur
 			\[
 			D_G = \frac{|E|}{\frac{p^2-p}{2}}
 			\]
@@ -116,11 +116,11 @@
 	\begin{frame}{Définitions et hypothèses}
 		\small
 		\begin{block}{Degré d'un noeud}
-			On appel degré d'un nœud $i$ la valeur 
+			On appelle degré d'un nœud $i$ la valeur 
 			\[
 			d_i = |\{(v_i,v_j) \in E | j \in {\{1,\cdots,p\}} \}| 
 			\]
-			et correspond au nombre de voisin du noeud $i$.
+			et correspond au nombre de voisins du noeud $i$.
 		\end{block}
 		\small
 		\begin{block}{Modèle nul}
@@ -200,7 +200,7 @@
 		\begin{block}{Graphes utilisés}
 			\begin{itemize}
 				\item Graphe du club de karaté de Zachary \\
-				\item Graphe généré aléatoirement avec le modèle de \textit{Ernos Rényi}
+				\item Graphe généré aléatoirement avec le modèle de \textit{Erdos Rényi}
 			\end{itemize}
 		\end{block}
 	\end{frame}
@@ -213,18 +213,26 @@
 			Un objet de type \textit{igraph.Graph} (graphe donné par l'utilisateur)
 		\end{block}
 		\begin{block}{Ce qu'elle retourne}
-			Un graphe avec ses communautés mise en évidence par des couleurs
+			Un graphe avec ses communautés mises en évidence par des couleurs
 		\end{block}                            
+	\end{frame}
+	
+	\begin{frame}{la fonction \textit{community\_edge\_betweenness} de \textit{igraph}}
+		\begin{figure}[H]
+			\centering
+			\includegraphics[scale=0.35]{images/centralite_arete.png}
+			\caption{Exemple d'arête ayant une centralité élevée}
+		\end{figure}
 	\end{frame}
 	
 	\begin{frame}{Expériences numériques}
 		\begin{figure}[htp] 
 			\centering
-			\subfloat[communautés détectés pour le graphe "Zachary"]{%
+			\subfloat[communautés détectées pour le graphe "Zachary"]{%
 				\includegraphics[scale=0.36]{images/G_zachary.png}%
 			}%
 			\hfill%
-			\subfloat[communautés détectés pour le graphe généré aléatoirement]{%
+			\subfloat[communautés détectées pour le graphe généré aléatoirement]{%
 				\includegraphics[scale=0.32]{images/random_network2.png}%
 			}%
 		\end{figure}
